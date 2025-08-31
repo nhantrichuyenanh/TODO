@@ -54,17 +54,21 @@
 
 .__youtube-timestamps__overlay-container {
     position: absolute;
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
+    top: 15px;
+    left: 6px;
+    width: auto;
+    height: auto;
     pointer-events: none;
     z-index: 1000;
     overflow: visible;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .__youtube-timestamps__live-overlay {
     position: relative;
+    left: 12px;
     display: flex;
     align-items: flex-start;
     gap: 12px;
@@ -84,6 +88,7 @@
     pointer-events: auto;
     cursor: pointer;
     box-sizing: border-box;
+    will-change: transform, opacity, top;
 }
 
 .__youtube-timestamps__live-overlay:hover {
@@ -126,12 +131,39 @@
     font-weight: 400;
     color: rgba(255, 255, 255, 0.92);
     line-height: 1.3;
-    max-height: 64px;
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.__youtube-timestamps__live-overlay__text-stamp {
+    color: #3ea6ff;
+    font-weight: 600;
+    background: rgba(62, 166, 255, 0.1);
+    padding: 2px 4px;
+    border-radius: 4px;
+    border: 1px solid rgba(62, 166, 255, 0.2);
+    transition: all 0.2s ease;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.__youtube-timestamps__live-overlay__text-stamp:hover {
+    background: rgba(62, 166, 255, 0.2);
+    border-color: rgba(62, 166, 255, 0.4);
+    transform: translateY(-1px);
+    box-shadow: 0 2px 4px rgba(62, 166, 255, 0.2);
+}
+
+.__youtube-timestamps__live-overlay__text-stamp:focus {
+    outline: none;
+    background: rgba(62, 166, 255, 0.25);
+    border-color: rgba(62, 166, 255, 0.5);
+    box-shadow: 0 0 0 2px rgba(62, 166, 255, 0.3);
 }
 
 .__youtube-timestamps__live-overlay.show {

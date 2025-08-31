@@ -1,8 +1,8 @@
-// LIVE OVERLAY CONFIGURATION
+// LIVE OVERLAY CONFIGURATION //
 const OVERLAY_DURATION = 4000
 const OVERLAY_FADE_DURATION = 500
 const MAX_CONCURRENT_OVERLAYS = 3
-const OVERLAY_SPACING = 0
+const OVERLAY_SPACING = 75
 const TIME_TOLERANCE = 0.5
 
 let timeComments = []
@@ -98,6 +98,14 @@ function isCommentCurrentlyShown(comment) {
     )
 }
 
+function getFreeSlotIndex() {
+  const usedSlots = new Set(activeOverlays.map(o => (typeof o.slot === 'number' ? o.slot : null)).filter(n => n !== null));
+  for (let i = 0; i < MAX_CONCURRENT_OVERLAYS; i++) {
+    if (!usedSlots.has(i)) return i;
+  }
+  return 0;
+}
+
 function showLiveOverlay(timeComment) {
     if (activeOverlays.length >= MAX_CONCURRENT_OVERLAYS) {
         const oldestOverlay = activeOverlays.shift()
@@ -107,9 +115,7 @@ function showLiveOverlay(timeComment) {
     const container = getOrCreateOverlayContainer()
     const overlay = createOverlayElement(timeComment)
 
-    const yPosition = calculateOverlayYPosition()
-    overlay.style.top = yPosition + 'px'
-
+    // Don't set fixed top position - let them stack naturally
     container.appendChild(overlay)
 
     const overlayData = {
@@ -130,41 +136,28 @@ function showLiveOverlay(timeComment) {
     }, OVERLAY_DURATION)
 }
 
-function calculateOverlayYPosition() {
-    const baseY = 80
-    const usedPositions = activeOverlays.map(overlay =>
-        parseInt(overlay.element.style.top) || 0
-    )
-
-    for (let i = 0; i < MAX_CONCURRENT_OVERLAYS; i++) {
-        const yPos = baseY + (i * OVERLAY_SPACING)
-        if (!usedPositions.includes(yPos)) {
-            return yPos
-        }
-    }
-
-    return baseY
-}
-
 function removeOverlay(overlayData) {
-    if (!overlayData || !overlayData.element) return
+  if (!overlayData || !overlayData.element) return;
+  const overlay = overlayData.element;
 
-    const overlay = overlayData.element
+  overlay.style.opacity = '0';
+  overlay.style.transform = 'translateY(-12px)';
 
-    overlay.style.opacity = '0'
-    overlay.style.transform = 'translateX(100px)'
+  setTimeout(() => {
+    if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+  }, OVERLAY_FADE_DURATION);
 
-    setTimeout(() => {
-        if (overlay.parentNode) {
-            overlay.parentNode.removeChild(overlay)
-        }
-    }, OVERLAY_FADE_DURATION)
-
-    const index = activeOverlays.indexOf(overlayData)
-    if (index > -1) {
-        activeOverlays.splice(index, 1)
-    }
+  const idx = activeOverlays.indexOf(overlayData);
+  if (idx > -1) {
+    activeOverlays.splice(idx, 1);
+    return;
+  }
+  const matchIdx = activeOverlays.findIndex(o =>
+    o && (o.commentId === overlayData.commentId || o.timestamp === overlayData.timestamp)
+  );
+  if (matchIdx > -1) activeOverlays.splice(matchIdx, 1);
 }
+
 
 function formatCommentTextWithTimestampSpans(text) {
   const frag = document.createDocumentFragment();
@@ -228,7 +221,7 @@ function showOverlayForCommentQueued(timeComment) {
 }
 
 function processOverlayQueue() {
-  if (__yt_active_overlays >= MAX_CONCURRENT) return;
+  if (__yt_active_overlays >= MAX_CONCURRENT_OVERLAYS) return;
   if (__yt_overlay_queue.length === 0) return;
 
   const next = __yt_overlay_queue.shift();
@@ -239,27 +232,19 @@ function displayOverlayImmediate(timeComment) {
   const container = getOrCreateOverlayStackContainer();
   const overlay = createOverlayElement(timeComment);
 
-  // append to container
   container.appendChild(overlay);
-
-  // mark active
   __yt_active_overlays++;
-
-  // animate show
   requestAnimationFrame(() => overlay.classList.add('show'));
 
-  // schedule removal
   const removeAfter = OVERLAY_DURATION;
-  const hideDelay = 260; // allow CSS fade-out time (ms)
+  const hideDelay = 260;
   const removalTimer = setTimeout(() => {
     overlay.classList.remove('show');
     overlay.classList.add('hide');
 
     setTimeout(() => {
-      // cleanup DOM
       if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
       __yt_active_overlays = Math.max(0, __yt_active_overlays - 1);
-      // show next in queue if any
       processOverlayQueue();
     }, hideDelay);
   }, removeAfter);
@@ -295,13 +280,11 @@ function createOverlayElement(timeComment) {
   const overlay = document.createElement('div');
   overlay.className = '__youtube-timestamps__live-overlay';
 
-  // Avatar
   const avatar = document.createElement('img');
   avatar.className = '__youtube-timestamps__live-overlay__avatar';
   avatar.alt = timeComment.authorName || 'User';
   avatar.src = timeComment.authorAvatar || '';
 
-  // Content
   const content = document.createElement('div');
   content.className = '__youtube-timestamps__live-overlay__content';
 
@@ -319,22 +302,6 @@ function createOverlayElement(timeComment) {
   overlay.appendChild(avatar);
   overlay.appendChild(content);
 
-  // Make overlay clickable: seek to the primary time for this comment (if available)
-  overlay.addEventListener('click', (ev) => {
-    ev.preventDefault();
-    ev.stopPropagation();
-    const video = getVideo && getVideo();
-    // prefer explicit numeric time if provided, otherwise try parse from .timestamp
-    const secs = (typeof timeComment.time === 'number') ? timeComment.time : parseTimestampToSeconds(timeComment.timestamp || '');
-    if (video && secs != null) {
-      video.currentTime = Math.max(0, Math.min(video.duration || Infinity, secs));
-      video.play().catch(()=>{});
-    }
-  });
-
-  // keyboard accessible
-  overlay.tabIndex = 0;
-
   return overlay;
 }
 
@@ -342,20 +309,16 @@ function showOverlayForComment(timeComment) {
   const container = getOrCreateOverlayStackContainer();
   const overlay = createOverlayElement(timeComment);
 
-  // Append overlay as the last child -> stacks under existing ones
   container.appendChild(overlay);
 
-  // allow CSS animation (add 'show' after appending)
   requestAnimationFrame(() => {
     overlay.classList.add('show');
   });
 
-  // Remove overlay after duration (fade out then remove)
   const removeAfter = OVERLAY_DURATION;
   setTimeout(() => {
     overlay.classList.remove('show');
     overlay.classList.add('hide');
-    // give fade animation time (match CSS transition)
     setTimeout(() => {
       if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
     }, 280);
@@ -437,8 +400,6 @@ function removeBar() {
     const bar = document.querySelector('.__youtube-timestamps__bar')
     bar?.remove()
 }
-
-
 
 function onLocationHrefChange(callback) {
     let currentHref = document.location.href
