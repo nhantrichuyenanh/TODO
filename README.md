@@ -4,7 +4,6 @@ My add-ons:
 - [youtube-timestamps](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md): 12
 - [Google-Tasks](https://github.com/nhantrichuyenanh/Google-Tasks/blob/main/README.md): 2
 - [YouTube-Commenter-Info](https://github.com/nhantrichuyenanh/YouTube-Commenter-Info/blob/main/README.md): 5
-- [YouTube-Panel-Below-Video-Player](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player/blob/main/README.md): 1
 - [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development): 2
 
 Other people's add-ons:
