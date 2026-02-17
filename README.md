@@ -6,6 +6,8 @@ My add-ons:
 - [YouTube-Commenter-Info](https://github.com/nhantrichuyenanh/YouTube-Commenter-Info/blob/main/README.md): 5
 - [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development): 2
 
+---
+
 Other people's add-ons:
 - [yt-equity](https://github.com/Kamo-Chip/yt-equity): make a pull request
   - Make `#pe-check-button` open/close `#pe-popup`, not just open.
