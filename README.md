@@ -10,8 +10,6 @@ My add-ons:
 ---
 
 Other people's add-ons:
-- [yt-equity](https://github.com/Kamo-Chip/yt-equity): make a pull request
-  - Make `#pe-check-button` open/close `#pe-popup`, not just open.
-  - `#pe-popup`’s background color uses html background color for custom YouTube themes.
-- [YT-dont-scroll-on-fullscreen](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1): check if repo owner replies (ive created my own violentmonkey script to replace it for now) 
+- [yt-equity](https://github.com/Kamo-Chip/yt-equity/issues/4): check if repo owner replies
+- [YT-dont-scroll-on-fullscreen](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1): check if repo owner replies
 - [Show YouTube Tags](https://addons.mozilla.org/addon/show-youtube-tags): recreate this but better
