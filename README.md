@@ -2,7 +2,6 @@ My add-ons:
 - [YouTube-Remaining-Time](https://github.com/nhantrichuyenanh/YouTube-Remaining-Time/blob/main/README.md): 3
 - [youtube-timestamps](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md): 12
 - [Google-Tasks](https://github.com/nhantrichuyenanh/Google-Tasks/blob/main/README.md): 2
-- [YouTube-Commenter-Info](https://github.com/nhantrichuyenanh/YouTube-Commenter-Info/blob/main/README.md): 5
 - [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development): 2
 - Create a Facebook add-on that makes homepage/page/group/etc... display posts as columns, similar to [Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column).
 - Create a YouTube add-on that adds Oldest and Timed to Sort by in the comment section on YouTube /watch, /shorts, and /post.
