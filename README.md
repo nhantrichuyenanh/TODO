@@ -1,5 +1,4 @@
 My add-ons:
-- [YouTube-Remaining-Time](https://github.com/nhantrichuyenanh/YouTube-Remaining-Time/blob/main/README.md): 3
 - [youtube-timestamps](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md): 12
 - [Google-Tasks](https://github.com/nhantrichuyenanh/Google-Tasks/blob/main/README.md): 2
 - [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development): 2
