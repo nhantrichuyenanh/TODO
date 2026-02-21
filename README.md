@@ -2,8 +2,8 @@
 | --- | -- |
 | [youtube-timestamps](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md) | 🫩 |
 | [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development) | 2 |
-| Create a Facebook add-on that makes homepage/page/group/etc... display posts as columns, similar to Pinterest layout/[Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column). |  |
-| Create a YouTube add-on that adds Oldest and Timed to Sort by in the comment section on YouTube `/watch`, `/shorts`, and `/post`. |  |
+- Create a Facebook add-on that makes homepage/page/group/etc... display posts as columns, similar to Pinterest layout/[Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column).
+- Create a YouTube add-on that adds Oldest and Timed to Sort by in the comment section on YouTube `/watch`, `/shorts`, and `/post`.
 
 ---
 
