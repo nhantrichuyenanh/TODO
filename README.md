@@ -11,6 +11,7 @@
   - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), almost perfect but lacking enough visual cues (hence the slider) and maybe should be next to the play button not the autoplay one
   - add-ons for material/reference: [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
   - override this [repo](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player)'s files and rename, for add-on delete [this](https://addons.mozilla.org/addon/yt-panel-below-video-player) and create a new one
+- Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/960px-Youtube_Music_icon.svg.png" width="15"/> YouTube Music add-on that removes the player UI (`#player` and `#player-page`) and make the URL not change when user clicks on a music video.
 
 ---
 
