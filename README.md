@@ -1,4 +1,4 @@
-My add-ons: _(sorry if this wall of text looks like an abomination lol)_
+My add-ons: _(sorry if this looks like an abomination lol, best viewed on a phone)_
 - Check [README.md](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md) for [`nhantrichuyenanh/youtube-timestamps`](https://github.com/nhantrichuyenanh/youtube-timestamps). 🫩🥱
 - Research how [Innertube](https://github.com/topics/innertube) works for [`nhantrichuyenanh/WIP-YT-Profile-Card-Info`](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info).
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1280px-2023_Facebook_icon.svg.png" width="15"/> Facebook add-on that makes homepage/page/group/etc... display posts (`.x1lliihq`) as columns, similar to Pinterest layout.
@@ -16,7 +16,7 @@ My add-ons: _(sorry if this wall of text looks like an abomination lol)_
   - > Repository: override [this one](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player)'s files and rename, and for add-on delete [this too](https://addons.mozilla.org/addon/yt-panel-below-video-player) and create a new one
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/960px-Youtube_Music_icon.svg.png" width="15"/> YouTube Music add-on that removes the player UI (`#player` and `#player-page`) and make the URL not change when user clicks on a music video.
 - Remove `https://www.messenger.com/*` from `content_scripts.matches` in `nhantrichuyenanh/FB-Chat-Formatter-Hotkeys`'s [`manifest.json`](https://github.com/nhantrichuyenanh/FB-Chat-Formatter-Hotkeys/blob/main/manifest.json) before April 2026.
-- Convert `<div` into semantic HTML for all of my add-ons’ repositories where applicable.
+- Convert `<div>` into semantic HTML for all of my add-ons’ repositories where applicable.
 
 ---
 
