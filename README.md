@@ -18,7 +18,4 @@ My add-ons:
 
 ---
 
-| Other people's add-ons | Tasks to do |
-| --- | -- |
-| [yt-equity](https://github.com/Kamo-Chip/yt-equity/issues/4) | check if repo owner replies |
-| [YT-dont-scroll-on-fullscreen](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1) | check if repo owner replies |
+Other people's add-ons: check if repo owners of [`Kamo-Chip/yt-equity`](https://github.com/Kamo-Chip/yt-equity/issues/4) and [`macciek-k/YT-dont-scroll-on-fullscreen`](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1) reply
