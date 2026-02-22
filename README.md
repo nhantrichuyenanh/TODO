@@ -4,10 +4,9 @@
 | [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development) | Research how [Innertube](https://github.com/topics/innertube) works. |
 - Create a Facebook add-on that makes homepage/page/group/etc... display posts as columns, similar to Pinterest layout/[Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column).
 - Create a YouTube add-on that adds Oldest and Timed to Sort by in the comment section on YouTube `/watch`, `/shorts`, and `/post`.
-- Create a YouTube add-on that adds a slider which: add-ons for material/reference [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
-  - changes playback rate
-  - looks exactly like the volume slider
-  - replaces the useless volume slider
+- Create a YouTube add-on that adds a playback speed slider which: add-ons for material/reference [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
+  - changes playback rate (duh)
+  - looks exactly like the volume slider and replaces it (bc it's useless)
   - supports hotkeys/mouse operations
   - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), almost perfect but lacking enough visual cues (hence the slider) and maybe should be next to the play button not the autoplay one
 ---
