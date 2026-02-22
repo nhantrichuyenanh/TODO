@@ -1,4 +1,4 @@
-My add-ons:
+My add-ons: _(sorry if this wall of text looks like an abomination lol)_
 - Check [README.md](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md) for [`nhantrichuyenanh/youtube-timestamps`](https://github.com/nhantrichuyenanh/youtube-timestamps). 🫩🥱
 - Research how [Innertube](https://github.com/topics/innertube) works for [`nhantrichuyenanh/WIP-YT-Profile-Card-Info`](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info).
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1280px-2023_Facebook_icon.svg.png" width="15"/> Facebook add-on that makes homepage/page/group/etc... display posts (`.x1lliihq`) as columns, similar to Pinterest layout.
@@ -11,7 +11,7 @@ My add-ons:
   - changes playback rate (duh)
   - looks exactly like the volume slider and replaces it (`.ytp-volume-area`, bc it's useless)
   - supports hotkeys/mouse operations
-  - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), which is almost perfect but lacking enough visual cues (hence the slider) and maybe should be next to the play button not the autoplay one
+  - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), which is almost perfect but lacking enough visual cues (hence the slider) and should be next to the play button not the autoplay one (bc playback rate indicator next to time display makes perfect sense)
   - > Material/Reference: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
   - > Repository: override [this one](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player)'s files and rename, and for add-on delete [this too](https://addons.mozilla.org/addon/yt-panel-below-video-player) and create a new one
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/960px-Youtube_Music_icon.svg.png" width="15"/> YouTube Music add-on that removes the player UI (`#player` and `#player-page`) and make the URL not change when user clicks on a music video.
