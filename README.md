@@ -1,10 +1,11 @@
-| My add-ons | Tasks to do |
-| --- | -- |
-| [youtube-timestamps](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md) | 🫩🥱 |
-| [WIP-YT-Profile-Card-Info](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info/blob/main/README.md#future-development) | Research how [Innertube](https://github.com/topics/innertube) works. |
+## My add-ons:
+- Check [README.md](https://github.com/nhantrichuyenanh/youtube-timestamps) for `nhantrichuyenanh/youtube-timestamps`. 🫩🥱
+- Research how [Innertube](https://github.com/topics/innertube) works for `nhantrichuyenanh/WIP-YT-Profile-Card-Info`.
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/2023_Facebook_icon.svg/1280px-2023_Facebook_icon.svg.png" width="15"/> Facebook add-on that makes homepage/page/group/etc... display posts (`.x1lliihq`) as columns, similar to Pinterest layout/[Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column).
   > Material/Reference: <img src="https://raw.githubusercontent.com/JasonBarnabe/greasyfork/master/public/images/blacklogo512.png" width="15"/> [Facebook多欄化(Multi-Column)](https://greasyfork.org/en/scripts/535430-facebook%E5%A4%9A%E6%AC%84%E5%8C%96-multi-column), <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column)
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/3840px-YouTube_full-color_icon_%282017%29.svg.png" width="15"/> YouTube add-on that adds Oldest and Timed to Sort by in the comment section on YouTube `/watch`, `/shorts`, and `/post`.
+- Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/3840px-YouTube_full-color_icon_%282017%29.svg.png" width="15"/> YouTube add-on that shows all the tags of a YouTube video.
+  > Material/Reference: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [Show YouTube Tags](https://addons.mozilla.org/addon/show-youtube-tags)
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/3840px-YouTube_full-color_icon_%282017%29.svg.png" width="15"/> YouTube add-on that adds a playback speed slider which:
   - changes playback rate (duh)
   - looks exactly like the volume slider and replaces it (`.ytp-volume-area`, bc it's useless)
@@ -21,4 +22,3 @@
 | --- | -- |
 | [yt-equity](https://github.com/Kamo-Chip/yt-equity/issues/4) | check if repo owner replies |
 | [YT-dont-scroll-on-fullscreen](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1) | check if repo owner replies |
-| [Show YouTube Tags](https://addons.mozilla.org/addon/show-youtube-tags) | recreate this but better |
