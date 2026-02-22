@@ -10,6 +10,8 @@
   - supports hotkeys/mouse operations
   - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), almost perfect but lacking enough visual cues (hence the slider) and maybe should be next to the play button not the autoplay one
   - add-ons for material/reference: [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
+  - override this [repo](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player)'s files and rename, for add-on delete [this](https://addons.mozilla.org/addon/yt-panel-below-video-player) and create a new one
+
 ---
 
 | Other people's add-ons | Tasks to do |
