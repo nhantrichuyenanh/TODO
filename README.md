@@ -15,6 +15,7 @@ My add-ons:
   - > Material/Reference: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
   - > Repository: override [this one](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player)'s files and rename, and for add-on delete [this too](https://addons.mozilla.org/addon/yt-panel-below-video-player) and create a new one
 - Create a <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Youtube_Music_icon.svg/960px-Youtube_Music_icon.svg.png" width="15"/> YouTube Music add-on that removes the player UI (`#player` and `#player-page`) and make the URL not change when user clicks on a music video.
+- Remove `https://www.messenger.com/*` from `content_scripts.matches` in `nhantrichuyenanh/FB-Chat-Formatter-Hotkeys`'s [`manifest.json`](https://github.com/nhantrichuyenanh/FB-Chat-Formatter-Hotkeys/blob/main/manifest.json) before April 2026.
 
 ---
 
