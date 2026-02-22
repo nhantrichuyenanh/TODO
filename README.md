@@ -9,7 +9,7 @@
   - changes playback rate (duh)
   - looks exactly like the volume slider and replaces it (`.ytp-volume-area`, bc it's useless)
   - supports hotkeys/mouse operations
-  - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), almost perfect but lacking enough visual cues (hence the slider) and maybe should be next to the play button not the autoplay one
+  - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), which is almost perfect but lacking enough visual cues (hence the slider) and maybe should be next to the play button not the autoplay one
   > Material/Reference: <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), and <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Firefox_logo%2C_2019.svg/1280px-Firefox_logo%2C_2019.svg.png" width="15"/> [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
 
   > Repository: override [this one](https://github.com/nhantrichuyenanh/YouTube-Panel-Below-Video-Player)'s files and rename, and for add-on delete [this too](https://addons.mozilla.org/addon/yt-panel-below-video-player) and create a new one
