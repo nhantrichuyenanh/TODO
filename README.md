@@ -17,6 +17,7 @@ My add-ons: _(sorry if this looks like an abomination lol, best viewed on mobile
 - Create a YouTube Music add-on that removes the player UI (`#player` and `#player-page`) and make the URL not change when user clicks on a music video.
 - Remove `https://www.messenger.com/*` from `content_scripts.matches` in `nhantrichuyenanh/FB-Chat-Formatter-Hotkeys`'s [`manifest.json`](https://github.com/nhantrichuyenanh/FB-Chat-Formatter-Hotkeys/blob/main/manifest.json) before April 2026.
 - Convert `<div>` into semantic HTML for all of my add-ons’ repositories where applicable.
+- Only add code comments where necessary.
 
 ---
 
