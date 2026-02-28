@@ -20,4 +20,4 @@ My add-ons: _(sorry if this looks like an abomination lol, best viewed on mobile
 
 ---
 
-Other people's add-ons: Check if repo owners of [`Kamo-Chip/yt-equity`](https://github.com/Kamo-Chip/yt-equity/issues/4), [`macciek-k/YT-dont-scroll-on-fullscreen`](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1), [`dnwjn/youtube-watch-later`](https://github.com/dnwjn/youtube-watch-later/discussions/174#discussion-9549452), and [g1eny0ung/github-colorful-contributions-graph](https://github.com/g1eny0ung/github-colorful-contributions-graph/issues/2) reply.
+Other people's add-ons: Check if repo owners of [`Kamo-Chip/yt-equity`](https://github.com/Kamo-Chip/yt-equity/issues/4), [`macciek-k/YT-dont-scroll-on-fullscreen`](https://github.com/macciek-k/YT-dont-scroll-on-fullscreen/issues/1), [`dnwjn/youtube-watch-later`](https://github.com/dnwjn/youtube-watch-later/discussions/174#discussion-9549452), and [`g1eny0ung/github-colorful-contributions-graph`](https://github.com/g1eny0ung/github-colorful-contributions-graph/issues/2) reply.
