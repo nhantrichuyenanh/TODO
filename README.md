@@ -7,7 +7,7 @@ My add-ons: _(sorry if this looks like an abomination lol, best viewed on mobile
   > Material/Reference: [YouTube Data API](developers.google.com/youtube/v3/docs/commentThreads/list#parameters), [YouTube Comment Search Pro](addons.mozilla.org/addon/yt-comment-search), [Comment and Reviews Sortor](https://chromewebstore.google.com/detail/comment-and-reviews-sorto/hjgeocikfedoclkjchdmfemlmokkmpcl)
 - Create a YouTube add-on that shows all the tags of a YouTube video.
   > Material/Reference: [Show YouTube Tags](https://addons.mozilla.org/addon/show-youtube-tags)
-- Create a YouTube add-on that adds a playback speed slider which:
+- **Create a YouTube add-on that adds a playback speed slider which**:
   - changes playback rate (duh)
   - looks exactly like the volume slider and replaces it (`.ytp-volume-area`, bc it's useless)
   - supports hotkeys/mouse operations
