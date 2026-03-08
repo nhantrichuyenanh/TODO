@@ -16,6 +16,7 @@ My add-ons: _(sorry if this looks like an abomination lol, best viewed on mobile
   - > Repository: https://github.com/nhantrichuyenanh/YouTube-Playback-Slider
 - Convert `<div>` into semantic HTML for all of my add-ons’ repositories where applicable.
 - Remove all the unnecessary code comments because the functions' name already explained itself.
+- Once stable, optimize for performance.
 
 ---
 
