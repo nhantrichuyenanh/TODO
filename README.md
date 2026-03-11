@@ -15,6 +15,7 @@ My add-ons:
   - > Material/Reference: [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
   - > Repository: https://github.com/nhantrichuyenanh/YouTube-Playback-Slider
 - Convert `<div>` into semantic HTML for all of my add-ons’ repositories where applicable.
+- Use `about:addons`'s properties like background color instead of hardcoded values.
 - Remove all the unnecessary code comments because the functions' name already explained itself.
 - Once stable, optimize for performance.
 
