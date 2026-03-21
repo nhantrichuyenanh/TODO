@@ -11,6 +11,7 @@ My add-ons:
   - changes playback rate (duh)
   - looks exactly like the volume slider and replaces it (`.ytp-volume-area`, bc it's useless)
   - supports hotkeys/mouse operations
+  - enable/disable YouTube Music
   - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), which is almost perfect but lacking enough visual cues (hence the slider) and should be next to the play button not the autoplay one (bc playback rate indicator next to time display makes perfect sense)
   - > Material/Reference: [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
   - > Repository: https://github.com/nhantrichuyenanh/YouTube-Playback-Slider
