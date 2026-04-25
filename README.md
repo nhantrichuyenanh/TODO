@@ -15,6 +15,8 @@ My add-ons:
   - complements [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), which is almost perfect but lacking enough visual cues (hence the slider) and should be next to the play button not the autoplay one (bc playback rate indicator next to time display makes perfect sense)
   - > Material/Reference: [YouTube SpeedUp](https://addons.mozilla.org/addon/youtube-speedup), [YouTube Speed Slider](https://addons.mozilla.org/addon/youtube-speed-slider-controls), [simple YouTube speed controls](https://addons.mozilla.org/addon/simple-youtube-speed-controls)
   - > Repository: https://github.com/nhantrichuyenanh/YouTube-Playback-Slider
+- Create a YouTube add-on that adds button which removes video from playlist.
+  > Material/Reference: [YouTube Playlist Quick Delete](https://addons.mozilla.org/addon/youtube-playlist-quick-delete)
 - Convert `<div>` into semantic HTML for all of my add-ons’ repositories where applicable.
 - Use `about:addons`'s variables like background color instead of hardcoded values.
 - Remove all the unnecessary code comments because the functions' name already explained itself.
