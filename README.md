@@ -1,6 +1,6 @@
 My add-ons:
 - Check [README.md](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md) for [`nhantrichuyenanh/youtube-timestamps`](https://github.com/nhantrichuyenanh/youtube-timestamps). 🫩🥱
-- Fix [`nhantrichuyenanh/YouTubeNewTabSearch`](https://github.com/nhantrichuyenanh/YouTubeNewTabSearch) and [`nhantrichuyenanh/YouTube-Comment-Formatter`](https://github.com/nhantrichuyenanh/YouTube-Comment-Formatter) occasionally not working. 😫
+- Fix [`nhantrichuyenanh/YouTube-Comment-Formatter`](https://github.com/nhantrichuyenanh/YouTube-Comment-Formatter) occasionally not working. 😫
 - Look into why sometimes `#ytSearchboxComponentNewTabButton` appears, sometimes not for [`nhantrichuyenanh/YouTubeNewTabSearch`](https://github.com/nhantrichuyenanh/YouTubeNewTabSearch).
 - Research how [Innertube](https://github.com/topics/innertube) works for [`nhantrichuyenanh/WIP-YT-Profile-Card-Info`](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info).
 - Create a Facebook add-on that makes homepage/page/group/etc... display posts (`.x1lliihq`) as columns, similar to Pinterest layout.
