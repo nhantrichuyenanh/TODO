@@ -2,6 +2,7 @@ My add-ons:
 - Check [README.md](https://github.com/nhantrichuyenanh/youtube-timestamps/blob/master/README.md) for [`nhantrichuyenanh/youtube-timestamps`](https://github.com/nhantrichuyenanh/youtube-timestamps). 🫩🥱
 - Fix [`nhantrichuyenanh/YouTube-Comment-Formatter`](https://github.com/nhantrichuyenanh/YouTube-Comment-Formatter) occasionally not working. 😫
 - Look into why sometimes `#ytSearchboxComponentNewTabButton` appears, sometimes not in videos opened in new tab for [`nhantrichuyenanh/YouTubeNewTabSearch`](https://github.com/nhantrichuyenanh/YouTubeNewTabSearch).
+  > Research how [YouTube Tweaks](https://addons.mozilla.org/addon/youtube-tweaks)' Open search results in new tab always works compared to mine.
 - Research how [Innertube](https://github.com/topics/innertube) works for [`nhantrichuyenanh/WIP-YT-Profile-Card-Info`](https://github.com/nhantrichuyenanh/WIP-YT-Profile-Card-Info).
 - Create a Facebook add-on that makes homepage/page/group/etc... display posts (`.x1lliihq`) as columns, similar to Pinterest layout.
   > Material/Reference: [Facebook多欄化(Multi-Column)](https://greasyfork.org/en/scripts/535430-facebook%E5%A4%9A%E6%AC%84%E5%8C%96-multi-column), [Reddit Multi-Column](https://addons.mozilla.org/addon/reddit-multi-column)
