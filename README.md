@@ -19,6 +19,7 @@ My add-ons:
   - > Repository: https://github.com/nhantrichuyenanh/YouTube-Playback-Slider
 - Create a YouTube add-on that adds button which removes video from playlist.
   > Material/Reference: [YouTube Playlist Quick Delete](https://addons.mozilla.org/addon/youtube-playlist-quick-delete)
+- Remake [TubeMemo](https://addons.mozilla.org/addon/tubememo) because Felix Tran seems to neglect it, even though I asked him to update it.
 - Convert `<div>` into semantic HTML for all of my add-ons’ repositories where applicable.
 - Use `about:addons`'s variables like background color instead of hardcoded values.
 - Remove all the unnecessary code comments because the functions' name already explained itself.
